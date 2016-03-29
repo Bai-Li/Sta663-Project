@@ -1,0 +1,85 @@
+\documentclass{statsoc}
+
+\usepackage{float}
+\usepackage{times,color,bm}
+\usepackage{graphicx}
+% For figures
+\usepackage{graphicx} % more modern
+%\usepackage{epsfig} % less modern
+\usepackage{subfigure} 
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{calrsfs}
+\usepackage{natbib}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\newcommand{\del}{\bm{\Delta}}
+\newcommand{\bZ}{\bm{Z}}
+\newcommand{\bX}{\bm{X}}
+\newcommand{\lam}{\bm{\Lambda}}
+\input{margins}
+\usepackage{subfigure} 
+
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{remark}{Remark}
+\newtheorem{example}{Example}
+\newcommand{\Prob}[1]{\mathbb{P}\left( #1 \right)}
+\newcommand{\E}[1]{\mathbb{E}\left( #1 \right)}
+
+% As of 2011, we use the hyperref package to produce hyperlinks in the
+% resulting PDF.  If this breaks your system, please commend out the
+% following usepackage line and replace \usepackage{icml2014} with
+% \usepackage[nohyperref]{icml2014} above.
+\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref}
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+
+\title[Short title]{Scalable K-means++}
+\author[ {\it et al.}]{Bai Li, Jiangliang Mao}
+
+
+
+\begin{document}  
+\section*{Abstract}
+K-means algorithm is one of the most popular clustering algorithm. A crucial part of k-means algorithm is the choice of initial centers while a poor initial centers may lead to locally optimal solution. To beat this, the k-means++ initialization is proposed to obtain an initial set of centers that is close to the global optimum solution. However, the k-means++ is not scalable.
+
+  
+\section{Introduction}
+
+
+
+
+
+
+\section{Implementation}
+
+
+\section{Testing}
+
+\section{Optimization}
+
+\section{High performance computing}
+
+\section{Application and comparison}
+\clearpage
+\newpage
+
+\bibliography{reference}
+\bibliographystyle{ims}
+
+\section*{Appendix}
+\clearpage
+\newpage
+
+\end{document}
